@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1>Tervetuloa!</h1><p>Tämä on pilvipalvelukurssin lisätehtävä G.</p>"
+    return "<h1>Tervetuloa!</h1><p>Tämä on pilvipalvelukurssin lisätehtävä G. Toimii.</p>"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
